@@ -1,0 +1,27 @@
+.guide,
+.intro,
+.reference {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    @include minSmall {
+        max-width: 540px;
+    }
+
+    @include minMedium {
+        max-width: 720px;
+    }
+
+    @include minLarge {
+        max-width: 960px;
+    }
+
+    @include minBig {
+        max-width: 1140px;
+    }
+}

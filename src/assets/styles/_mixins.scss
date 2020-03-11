@@ -1,0 +1,57 @@
+@mixin minSmall {
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (min-width: 576px) {
+        @content;
+    }
+}
+
+@mixin minMedium {
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin minLarge {
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+        @content;
+    }
+}
+
+@mixin minBig {
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin maxSmall {
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 576px) {
+        @content;
+    }
+}
+
+@mixin maxMedium {
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin maxLarge {
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (max-width: 992px) {
+        @content;
+    }
+}
+
+@mixin maxBig {
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (max-width: 1200px) {
+        @content;
+    }
+}

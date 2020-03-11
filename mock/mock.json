@@ -1,0 +1,177 @@
+{
+    "totalRecords": "12",
+    "result": [
+        {
+            "title": "Authentication",
+            "description": "Generate tokens based on the OAuth 2.0 standard to authenticate requests made to Forge APIs and SDKs.",
+            "links": [
+                {
+                    "url": "/developer/en/api/dummy1/guide",
+                    "name": "Developer's guide"
+                },
+                {
+                    "url": "/developer/en/api/dummy1/reference",
+                    "name": "API reference"
+                }
+            ],
+            "icon":"fa fa-address-card"
+        },
+        {
+            "title": "BIM 360",
+            "description": "Integrate with the Autodesk BIM 360 platform to extend its capabilities to reach segments of the construction ecosystem that don’t have direct access to BIM data.",
+            "links": [
+                {
+                    "url": "/developer/en/api/dummy1/intro",
+                    "name": "Intro"
+                },
+                {
+                    "url": "/developer/en/api/dummy1/guide",
+                    "name": "Developer's guide"
+                },
+                {
+                    "url": "/developer/en/api/dummy1/reference",
+                    "name": "API reference"
+                }
+            ],
+            "icon":"fa fa-bold"
+
+        },
+        {
+            "title": "Data Management",
+            "description": "Access data across BIM 360 team, Fusion Team, BIM 360 Docs, and the Object Storage Service to build apps to display and extend your data in ways that add value to your users.",
+            "links": [
+                {
+                    "url": "/developer/en/api/dummy1/intro",
+                    "name": "Intro"
+                },
+                {
+                    "url": "/developer/en/api/dummy1/guide",
+                    "name": "Developer's guide"
+                },
+                {
+                    "url": "/developer/en/api/dummy1/reference",
+                    "name": "API reference"
+                }
+            ],
+            "icon":"fa fa-cloud-download"
+        },
+        {
+            "title": "Design Automation",
+            "description": "Automate repetitive tasks by leveraging on the scale of the Forge Platform and running scripts on your design files in the cloud.",
+            "links": [
+                {
+                    "url": "/developer/en/api/dummy1/intro",
+                    "name": "Intro"
+                },
+                {
+                    "url": "/developer/en/api/dummy1/guide",
+                    "name": "Developer's guide"
+                },
+                {
+                    "url": "/developer/en/api/dummy1/reference",
+                    "name": "API reference"
+                }
+            ],
+            "icon":"fa fa-superpowers"
+        },
+        {
+            "title": "Model Derivative",
+            "description": "Derive outputs viewable by the Forge Viewer from more than 60 CAD file formats, and extract metadata about the models as well as the individual objects within the model.",
+            "links": [
+                {
+                    "url": "/developer/en/api/dummy1/intro",
+                    "name": "Intro"
+                },
+                {
+                    "url": "/developer/en/api/dummy1/guide",
+                    "name": "Developer's guide"
+                },
+                {
+                    "url": "/developer/en/api/dummy1/reference",
+                    "name": "API reference"
+                }
+            ],
+            "icon":"fa fa-files-o"
+        },
+        {
+            "title": "Reality Capture",
+            "description": "Convert digital images into high resolution textured meshes, dense point clouds and orthophotos.",
+            "links": [
+                {
+                    "url": "/developer/en/api/dummy1/intro",
+                    "name": "Intro"
+                },
+                {
+                    "url": "/developer/en/api/dummy1/guide",
+                    "name": "Developer's guide"
+                },
+                {
+                    "url": "/developer/en/api/dummy1/reference",
+                    "name": "API reference"
+                }
+            ],
+            "icon":"fa fa-bullseye"
+
+        },
+        {
+            "title": "Token Flex",
+            "description": "Access Autodesk Token Flex Usage Data platform to generate reports on consumption, usage, and contract details.",
+            "links": [
+                {
+                    "url": "/developer/en/api/dummy1/intro",
+                    "name": "Intro"
+                },
+                {
+                    "url": "/developer/en/api/dummy1/guide",
+                    "name": "Developer's guide"
+                },
+                {
+                    "url": "/developer/en/api/dummy1/reference",
+                    "name": "API reference"
+                }
+            ],
+            "icon":"fa fa-line-chart"
+
+        },
+        {
+            "title": "Viewer",
+            "description": "Render 3D and 2D model data within a browser. The models can come from a wide range of applications such as AutoCAD, Fusion 360, Revit, and many more.",
+            "links": [
+                {
+                    "url": "/developer/en/api/dummy1/intro",
+                    "name": "Intro"
+                },
+                {
+                    "url": "/developer/en/api/dummy1/guide",
+                    "name": "Developer's guide"
+                },
+                {
+                    "url": "/developer/en/api/dummy1/reference",
+                    "name": "API reference"
+                }
+            ],
+            "icon":"fa fa-university"
+
+        },
+        {
+            "title": "Webhooks",
+            "description": "Subscribe to and receive notifications of the occurrence of events within the Forge eco system.",
+            "links": [
+                {
+                    "url": "/developer/en/api/dummy1/intro",
+                    "name": "Intro"
+                },
+                {
+                    "url": "/developer/en/api/dummy1/guide",
+                    "name": "Developer's guide"
+                },
+                {
+                    "url": "/developer/en/api/dummy1/reference",
+                    "name": "API reference"
+                }
+            ],
+            "icon":"fa fa-life-ring"
+
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+.documentation {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    & > .card__container {
+        padding: 0;
+        &  .card__container--row {
+            margin: 1.5rem 0;
+        }
+    }
+    @include minSmall {
+        max-width: 540px;
+    }
+    @include minMedium {
+        max-width: 720px;
+    }
+    @include minLarge {
+        max-width: 960px;
+    }
+    @include minBig{
+        max-width: 1140px;
+    }
+}

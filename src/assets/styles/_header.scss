@@ -1,0 +1,41 @@
+.app-header {
+    font-size: 1rem;
+    background-image: url('../images/head-banner.png');
+    background-position: 50% 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2.4rem 0;
+
+    &>.header__banner {
+        & > .header__container {
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            &>h1 {
+                font-size: 2.4rem;
+                line-height: 1.2;
+                font-weight: 300;
+                font-family: Artifakt Element, sans-serif;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                display: block;
+                color: #fff;
+                text-transform: uppercase;
+            }
+            @include minSmall {
+                max-width: 540px;
+            }
+            @include minMedium {
+                max-width: 720px;
+            }
+            @include minLarge {
+                max-width: 960px;
+            }
+            @include minBig{
+                max-width: 1140px;
+            }
+        }
+    }
+}
